@@ -115,13 +115,5 @@ public class OrderRepository {
         for(List<String> listOfOrderIds : partnerOrderPair.values()){
             listOfOrderIds.remove(orderId);
         }
-//        for(Map.Entry<String, List<String>> entry : partnerOrderPair.entrySet()){
-//            String partner = entry.getKey();
-//            for(String order : partnerOrderPair.get(partner)){
-//                if(order.equals(orderId)){
-//                    partnerOrderPair.get(partner).remove(orderId);
-//                }
-//            }
-//        }
     }
 }
